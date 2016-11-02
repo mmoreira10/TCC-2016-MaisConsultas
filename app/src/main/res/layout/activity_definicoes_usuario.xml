@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DefinicoesUsuarioActivity"
+    android:background="#FFFFFF">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar para escolha de usuários"
+        android:id="@+id/btnUsuario"
+        android:layout_above="@+id/btnSair"
+        android:layout_alignRight="@+id/btnSair"
+        android:layout_alignEnd="@+id/btnSair"
+        android:layout_alignLeft="@+id/btnSair"
+        android:layout_alignStart="@+id/btnSair"
+        android:background="#2E7D32"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="25dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair do aplicativo"
+        android:id="@+id/btnSair"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#C62828"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVoltar"
+        android:background="#F9A825"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:layout_above="@+id/btnUsuario"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Voltar para o menu" />
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginUsuarioActivity"
+    android:background="#039BE5">
+
+
+    <LinearLayout
+        android:id="@+id/layout_email_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_email_password"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:hint="Digite aqui o seu e-mail"
+        android:background="@drawable/fundo_caixa_texto"
+        android:drawableRight="@drawable/userlogin"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="22dp"
+        android:layout_marginTop="102dp"
+        android:textColorHint="#000000"
+        android:padding="15dp"
+        android:layout_below="@+id/layout_email_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnAcessar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:background="@drawable/fundo_botoes_verde"
+        android:drawableRight="@drawable/ok"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:singleLine="false"
+        android:layout_below="@+id/edtSenha"
+        android:layout_alignLeft="@+id/edtSenha"
+        android:layout_alignStart="@+id/edtSenha"
+        android:layout_alignRight="@+id/edtSenha"
+        android:layout_alignEnd="@+id/edtSenha"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:hint="Digite a sua senha"
+        android:background="@drawable/fundo_caixa_texto"
+        android:drawableRight="@drawable/senhauser"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="21dp"
+        android:textColorHint="#000000"
+        android:padding="15dp"
+        android:layout_below="@+id/edtEmail"
+        android:layout_alignRight="@+id/edtEmail"
+        android:layout_alignEnd="@+id/edtEmail"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:background="@drawable/fundo_botoes"
+        android:drawableRight="@drawable/add"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:singleLine="false"
+        android:layout_below="@+id/btnAcessar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnAcessar"
+        android:layout_alignEnd="@+id/btnAcessar" />
+
+
+</RelativeLayout>

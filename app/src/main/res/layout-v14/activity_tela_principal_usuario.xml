@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".TelaPrincipalUsuarioActivity">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button android:id="@+id/btnCadastrarConsulta"
+            android:layout_width="fill_parent"
+            android:drawableRight="@drawable/doctor"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Cadastrar consulta"
+            android:background="#2E7D32"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button android:id="@+id/btnListarConsultas"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableRight="@drawable/list"
+            android:layout_weight="1"
+            android:text="Listar consultas"
+            android:background="#F9A825"
+            android:textSize="19dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button android:id="@+id/btnEditarConsultas"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/alterar"
+            android:text="Editar consulta"
+            android:background="#0277BD"
+            android:textSize="21dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button android:id="@+id/btnExcluirConsultas"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableRight="@drawable/delete"
+            android:layout_weight="1"
+            android:text="Excluir consulta"
+            android:background="#C62828"
+            android:textSize="21dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btnBuscas"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/busca"
+            android:text="Buscas"
+            android:background="#6A1B9A"
+            android:textSize="26dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDefinicoes"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/config2"
+            android:text="Definições"
+            android:background="#424242"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

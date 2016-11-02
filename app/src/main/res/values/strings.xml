@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Bem-vindo</string>
+    <string name="nome_splash">+Consultas</string>
+    <string name="action_settings">Configurações</string>
+    <string name="menu_login">Acessar</string>
+    <string name="login_label">Log In</string>
+    <string name="email_label">E-mail</string>
+    <string name="password_label">Senha</string>
+    <string name="send_text">Enviar</string>
+    <string name="lorem">Lorem.</string>
+    <string name="title_sign_in">Bem-vindo</string>
+    <string name="sign_up">Cadastre-se</string>
+    <string name="menu_buscas">Buscas</string>
+    <string name="menu_config">Configurações</string>
+    <string name="menu_escolha">Escolha de usuários</string>
+    <string name="menu_sair">Sair</string>
+    <string name="menu_logout">Fazer Logoff</string>
+    <string name="hint_password">senha</string>
+    <string name="hint_email">e-mail</string>
+    <string name="sign_in">Acessar</string>
+    <string name="heading_my_posts">Consultas</string>
+    <string name="heading_recent">Consultas recentes</string>
+    <string name="heading_my_top_posts">Consultas favoritas</string>
+
+    <string-array name="especialidades">
+
+        <item> Especialidade... </item>
+        <item> Acupuntura </item>
+        <item> Alergia </item>
+        <item> Angiologia </item>
+        <item> Cardiologia </item>
+        <item> Cirurgia Geral </item>
+        <item> Cirurgia Pediátrica </item>
+        <item> Clínica Médica </item>
+        <item> Dermatologia </item>
+        <item> Doenças Infecto-Parasitárias </item>
+        <item> DST/AIDS </item>
+        <item> Endocrinologia </item>
+        <item> Fisiatria </item>
+        <item> Fonoaudiologia </item>
+        <item> Gastroenterologia </item>
+        <item> Genética </item>
+        <item> Geral </item>
+        <item> Geriatria </item>
+        <item> Ginecologia </item>
+        <item> Hematologia </item>
+        <item> Homeopatia </item>
+        <item> Imunologia </item>
+        <item> Medicina Esportiva </item>
+        <item> Medicina Preventiva e Social </item>
+        <item> Medicina do Trabalho </item>
+        <item> Nefrologia </item>
+        <item> Neurologia </item>
+        <item> Nutrição e Dietética </item>
+        <item> Obstetrícia </item>
+        <item> Odontologia </item>
+        <item> Oftalmologia </item>
+        <item> Oncologia </item>
+        <item> Ortopedia </item>
+        <item> Otorrinolaringologia </item>
+        <item> Pediatria </item>
+        <item> Psicologia </item>
+        <item> Pneumologia </item>
+        <item> Proctologia </item>
+        <item> Psiquiatria </item>
+        <item> Reumatologia </item>
+        <item> Tisiologia </item>
+        <item> Traumatologia </item>
+        <item> Urologia </item>
+        <item> Neurocirurgia </item>
+        <item> Outras </item>
+        <item> Sem definição </item>
+
+    </string-array>
+
+</resources>

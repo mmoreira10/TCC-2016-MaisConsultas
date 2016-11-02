@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ConsultaDetalheActivity">
+
+    <include
+        android:id="@+id/consulta_usuario_layout"
+        layout="@layout/include_consulta_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fotoUsuario"
+        android:layout_toRightOf="@+id/fotoUsuario"
+        android:layout_toEndOf="@+id/fotoUsuario"
+        android:layout_marginTop="10dp" />
+
+    <include
+        android:id="@+id/consulta_texto_layout"
+        layout="@layout/include_consulta_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/consulta_usuario_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/obs_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/consulta_texto_layout"
+        android:layout_marginTop="20dp"
+        android:weightSum="1.0">
+
+        <EditText
+            android:id="@+id/edtObs"
+            android:layout_width="0dp"
+            android:layout_weight="1.01"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="Observações da consulta..."
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnObs"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_obs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_obs"
+        android:layout_below="@+id/obs_form" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fotoUsuario"
+        android:src="@drawable/ic_action_account_circle_40"
+        android:layout_alignLeft="@+id/consulta_texto_layout"
+        android:layout_alignStart="@+id/consulta_texto_layout" />
+
+</RelativeLayout>

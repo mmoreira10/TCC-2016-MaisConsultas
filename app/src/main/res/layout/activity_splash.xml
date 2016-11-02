@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SplashActivity"
+    android:background="#039BE5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Consultas"
+        android:id="@+id/tvConsultas"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/pBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="+"
+        android:id="@+id/tvMais"
+        android:textSize="300dp"
+        android:textColor="#FFB800"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/tvConsultas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pBar"
+        android:progressDrawable="@drawable/progress_bar_em_circulo"
+        android:indeterminate="false"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Versão beta 1.0"
+        android:id="@+id/textView"
+        android:layout_below="@+id/tvMais"
+        android:layout_alignRight="@+id/tvConsultas"
+        android:layout_alignEnd="@+id/tvConsultas"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

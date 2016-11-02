@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovaConsultaUsuario">
+
+    <AutoCompleteTextView
+        android:id="@+id/edtEspecialidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Especialidade, ex: Cardiologista"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:padding="25dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edtMedico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEspecialidade"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:hint="Médico, ex: Dr. Abidala Russel"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:scrollHorizontally="false"
+        android:textSize="20dp"
+        android:padding="25dp"
+        android:textColorHint="#000000" />
+
+
+
+    <EditText
+        android:id="@+id/edtLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Local, ex: Hospital Ana Costa"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:scrollHorizontally="false"
+        android:layout_below="@+id/edtMedico"
+        android:layout_alignLeft="@+id/edtMedico"
+        android:layout_alignStart="@+id/edtMedico"
+        android:layout_alignRight="@+id/edtMedico"
+        android:layout_alignEnd="@+id/edtMedico"
+        android:textSize="20dp"
+        android:padding="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar consulta"
+        android:id="@+id/btnAgendar"
+        android:layout_below="@+id/edtLocal"
+        android:layout_alignLeft="@+id/edtLocal"
+        android:layout_alignStart="@+id/edtLocal"
+        android:layout_alignRight="@+id/edtLocal"
+        android:layout_alignEnd="@+id/edtLocal"
+        android:padding="30dp"
+        android:textSize="20dp"
+        android:background="#2E7D32"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar para o menu"
+        android:id="@+id/btnUsuario"
+        android:padding="30dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnAgendar"
+        android:background="#F9A825"
+        android:layout_alignLeft="@+id/btnAgendar"
+        android:layout_alignStart="@+id/btnAgendar"
+        android:layout_alignRight="@+id/btnAgendar"
+        android:layout_alignEnd="@+id/btnAgendar"
+        android:textStyle="bold" />
+
+</RelativeLayout>

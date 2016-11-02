@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.firebase.quickstart.database">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Firebase +Consultas"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NovaConsultaActivity"
+            android:label="Nova consulta" />
+        <activity
+            android:name=".ConfiguracoesActivity"
+            android:label="Configurações"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="Autenticação administrador" />
+
+        <activity
+            android:name=".ConsultaDetalheActivity"
+            android:label="Detalhes da consulta" />
+
+        <activity
+            android:name=".BuscasActivity"
+            android:label="Faça aqui suas buscas" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EscolhaLoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".LoginUsuarioActivity"
+            android:label="Autenticação usuário"></activity>
+
+        <activity
+            android:name=".TelaPrincipalUsuarioActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".DefinicoesUsuarioActivity"
+            android:label="Definições do usuário"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".NovaConsultaUsuario"
+            android:label="Nova consulta" />
+
+        <activity
+            android:name=".MainActivityUsuario"
+            android:label="Bem-vindo" />
+
+        <activity
+            android:name=".ConsultaDetalheUsuarioActivity"
+            android:label="Detalhes da consulta" />
+
+        <activity
+            android:name=".EditarConsultasActivity"
+            android:label="Editar consulta" />
+
+        <activity
+            android:name=".DeletarConsultasActivity"
+            android:label="Excluir consulta" />
+
+        <activity android:name=".NovoCadastroLoginActivity"
+            android:label="Novo cadastro" />
+
+    </application>
+
+</manifest>

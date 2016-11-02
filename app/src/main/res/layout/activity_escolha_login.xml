@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".EscolhaLoginActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <Button android:id="@+id/btnUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableBottom="@drawable/users"
+            android:text="Usuário"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:background="#039BE5"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button android:id="@+id/btnAdministrador"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableBottom="@drawable/admin3"
+            android:layout_weight="1"
+            android:text="Administrador"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:background="#FF8900"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

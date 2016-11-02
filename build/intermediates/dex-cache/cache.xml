@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="abce99d34196ff8edc30fc4c243d8cc9ad1f9414">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0bbd893f60eeb4bf249f33859aefb0042273969b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.6.1_9cbf61cf39bf2d8b6c94a85d47e6d51c76e87b08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_0937083bae5a9dc152d0cf37c6c39b1b808c7384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_cdd783c84eb65a99554606808b6c249dc63f149e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="25c3b71efd8e15c14554cf41addc88dd19aa45da">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_679f352f5348c0915893b357cc1bc30e7a94c7a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_11b3cf30cd5c6bdfe83f620693cb1fdc9026ae61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_fc5437a3b40070fb44c80f41e4055d22ee72ad5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_ad6905c9eb79b2c7410aa879f9062753e9145cc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.1_f8f2b2d53f4393f81aae415c28ba554de60d253f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_965d146dccebdcd142fd6b919cca17d8a9c24210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a9015a0b5c4fbc628d623643d058c4642f6e3558\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_50a219c27e5f858eb61ff899c68d32aead17c4f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_98b262fbcca05f038fa55b0a648b54fa570815e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Matheus Moreira\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_373bbbccc4b1cd4009567868e9ca9e86634aefb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_b006599d6cd3c1af2308aa7f879e3d74d24960b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_46d9d1ed695830d66145d22f3cf58390f09d0db1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_55a7a54e95ed055f7727ca58b89687d0c0be90b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_708d4f9a2a72d0dca719500b64ff17f0047dcc25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_b568248baedea5040d1a5fa0b795f2a46ab21c94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_32bfec6799c03bb6310b1a7146744e2aed4633e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_ce56ab67313ac6aec3db9b4f4346c68136e0eb08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.6.1_d1426e874bf886fcac012255696cc81680512d93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_40c43e502c608c5f812fc9df0f4b3c0e56dec1fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_2a8251a83d3f40b50cf71f0f4ce0be6d87ba3f7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-database\0.5.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d729037ff4a83220d1f706356ff0dbe4b85e0d73">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-database-0.5.3_73bbcb2137bfe2d32846333719e1f228815bda0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_1c41677d7ff4ca14d627054e90e95d200cffc652\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e23ae25df3af5637227eee19f2288b724dc473bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_9fb4c89e57776b1a5c303008db3f4205917a82b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.6.1_35ac9d8fd06919ba753f43a8dbc8e5288c917529\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_9d199432430cc885e9d450b2e4a4a13d9fbf4b80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_19188fcbbeebe560002a3d837445e683b4ef2ba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_73be5011ac2c933fecbee3aad7581187ba4c7cd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.1_b43741702d4e0fe006546a30c28c5292a30899ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_fd1e3a54610342b5d38e2b31c72924b975ea0b5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Projetos\MaisConsultas_TCC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_97a787c410946b539581ea4e494d6a717b73727b\classes.dex" />
+    </item>
+
+</items>
